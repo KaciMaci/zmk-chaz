@@ -23,6 +23,7 @@
     tapping_term_ms = <150>;
 };
 
+/ {
  combos {
         compatible = "zmk,combos";
         combo_esc {
@@ -31,6 +32,7 @@
             bindings = <&tog layer_3>;
         };
     };
+};
 
 / {
     keymap {
