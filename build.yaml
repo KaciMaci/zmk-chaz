@@ -1,3 +1,4 @@
 include:
   - board: nice_nano_v2
+    shield: chaz
     extra-cmake-args: -DCONFIG_ZMK_UF2_OUTPUT=y
